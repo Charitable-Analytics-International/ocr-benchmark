@@ -53,7 +53,7 @@ The images contain values expressed by this regex,
 
     ^[-]{0,1}[0-9]*[.,]{0,1}[0-9]*$
 
-Dataset Size = 522 cell images
+Dataset Size = 4451 cell images
 
 Format : RGB images of varying width and height
 
@@ -68,7 +68,7 @@ The images contain values expressed by this regex,
 
     ^[-]{0,1}[٠-٩]*[.,]{0,1}[٠-٩]*$
 
-Dataset Size = 1000 cell images
+Dataset Size = 1001 cell images
 
 Format : RGB images of varying width and height
 
@@ -79,21 +79,64 @@ Compression : JPEG
 
 The images contain varying numbers of bubbles.
 
-Dataset Size = 13 cell images
+Dataset Size = 4642 cell images
 
 Format : RGB images of varying width and height
 
 Compression : JPEG
 
 
-## Running the Benchmark
+## Running the Benchmarks
 
-The *run.ipynb* jupyter notebook contains the scripts to benchmark the different OCR providers on our test data.
+The *run.ipynb* jupyter notebook contains the scripts to benchmark the different OCR providers on our test data. Here are the accuracy scores.
 
 
-## Informative Videos
+### Full Images
 
-- [What is OCR?](https://www.youtube.com/watch?v=ZNrteLp_SvY) - OCR isn't just about scanning documents and digitizing old books. Explaining how it can work in a practical setting is Professor Steve Simske.
+1. CAI Meza = 100%
+
+2. Amazon =
+
+
+### Western Arabic Numerals
+
+1. Human inter-coder agreement =
+
+2. CAI Meza = 85%
+
+3. Google =
+
+4. Amazon =
+
+5. Azure =
+
+
+### Eastern Arabic Numerals
+
+1. Human inter-coder agreement =
+
+2. CAI Meza = 82%
+
+3. Google =
+
+4. Amazon =
+
+5. Azure =
+
+
+### Bubbles
+
+1. Human inter-coder agreement =
+
+2. CAI Meza =
+
+3. Google =
+
+4. Amazon =
+
+5. Azure =
+
+
 
 
 ## Author
