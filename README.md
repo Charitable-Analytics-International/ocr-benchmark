@@ -93,6 +93,8 @@ The *run.ipynb* jupyter notebook contains the scripts to benchmark the different
 
 ### Full Images
 
+Here, accuracy is defined as the number of cells successfully cut out
+
 1. CAI Meza = 100%
 
 2. Amazon =
@@ -128,7 +130,7 @@ The *run.ipynb* jupyter notebook contains the scripts to benchmark the different
 
 1. Human inter-coder agreement =
 
-2. CAI Meza =
+2. CAI Meza = 96%
 
 3. Google =
 
