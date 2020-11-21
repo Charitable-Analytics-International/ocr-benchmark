@@ -40,7 +40,7 @@ This dataset is used to test the ability to take a raw image and cut it into its
 
 Directory = ./test_data/full_images/
 
-Dataset Size = 1000 cell images
+Dataset Size = 6 images
 
 Format : RGB images of varying width and height
 
