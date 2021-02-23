@@ -4,7 +4,7 @@ CAI Meza is a software system that receives cell phone photos of log books, digi
 
 [Meza Promo Video](https://youtu.be/wlABTMQILg8) - A video explanation of the CAI Meza platform
 
-CAI Meza currently supports Western Arabic Numerals, Eastern Arabic Numerals and Bubbles. For numerals, our neural network architectures use a CRNN-like model built in PyTorch. The models use a ResNet50 as a backbone and feature extractor, which feeds a 512-dimension latent vector to a bidirectional LSTM. For bubbles, our models splits the cell image to isolate each bubble and then uses a modified ResNet18 to detect if it's checked or not.
+CAI Meza currently supports Western Arabic Numerals, Eastern Arabic Numerals and Bubbles. For numerals, our neural network architectures use a CRNN-like model built in PyTorch. The models use an EfficientNetB0 as backbone and feature extractor, which feeds a 512-dimension latent vector to a bidirectional LSTM. For bubbles, our models splits the cell image to isolate each bubble and then uses a modified ResNet18 to detect if it's checked or not.
 
 This repository contains the datasets we use to benchmark the accuracy of our system. It also contains scripts to benchmark the accuracy of other OCR providers such as,
 
@@ -104,7 +104,7 @@ Here, accuracy is defined as the number of cells successfully cut out
 
 1. Human inter-coder agreement =
 
-2. CAI Meza = 85%
+2. CAI Meza = 86.94%
 
 3. Google =
 
@@ -130,7 +130,7 @@ Here, accuracy is defined as the number of cells successfully cut out
 
 1. Human inter-coder agreement =
 
-2. CAI Meza = 96%
+2. CAI Meza = 96.8%
 
 3. Google =
 
